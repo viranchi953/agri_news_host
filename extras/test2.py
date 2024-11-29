@@ -88,6 +88,6 @@ def scrape_and_create_website(url, output_html):
         print(f"Error fetching data: {e}")
 
 # URL of the agriculture news website
-url = "https://krishijagran.com/"  # Replace with the desired website
+url = "https://krishijagran.com/agriculture-world"  # Replace with the desired website
 output_html = "index.html"
 scrape_and_create_website(url, output_html)
